@@ -1,0 +1,124 @@
+<html>
+<body>
+	<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+    background-image:url('demo1.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    top-margin:0px;
+    background-repeat: no-repeat;
+}
+.center{
+    //display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: fixed;
+    margin-bottom:auto;
+}
+.navbar {
+    overflow: hidden;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+     margin-top: 0px;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    float:left;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: red;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: blue;
+    width:20%;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+textarea{
+	font-size: 20px;
+	background-color:blue;
+	border-radius: 5px;
+}
+h6{
+	background-color:black;
+	width:10%;
+}
+h6:hover{
+	background-color:green;
+	width: 10%;
+}
+h5{
+	background-color:black;
+	width:10%;
+}
+h5:hover{
+	background-color:black;
+	width: 15%;
+}
+</style>
+</head>
+<body>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "135px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+	<center style="position:relative;top:40%;left:0%">
+<form style="color:red; font-size:25px;" method="post" action="upload.php" enctype="multipart/form.data">
+<h5><input type="hidden" name="size" value="1000000"></h5>
+<Div>
+<input type="file" name="image">
+</Div>
+<Div>
+<h6><input type="submit" name="upload" value="Upload Image"></h6>
+</Div>
+</form>
+</div>
+</center>
+</body>
+</html>

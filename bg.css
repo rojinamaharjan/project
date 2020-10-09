@@ -1,0 +1,50 @@
+
+section{
+	background-image: url("37812363_2077340802586011_2924668236593102848_n.jpg");
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	position: relative;
+}
+/*.one{
+	text-align: center;
+	background:rgba(20,50,100,0.5);
+	height: 50px;
+}
+.b{
+	color: white;
+	position: absolute;
+	right: 30%;
+	top: 50%;
+	left:30%;
+}
+img{
+	width: 10px;
+	height:auto;
+}
+.home:hover{
+	background-color:white;
+}
+.contact:hover{
+	background-color:white;
+}
+.aboutus:hover{
+	background-color:white;
+}
+.login:hover{
+	background-color:white;
+}
+.signup:hover{
+	background-color:white;
+}
+.home{
+           background-color: white;
+        }
+
+.heading{
+	width:70%;
+	background:rgba(100,100,100,0.5);
+	margin-left: 10%;
+}*/
+
